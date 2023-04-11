@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*DESCKTOP*/
+
+
+.titulo{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 89px;
+    font-size: 25px;
+}
+.navbar-brand .fa-facebook-f{
+    font-size: 30px;
+    
+    background: rgb(31, 56, 199);
+    border:solid 1px rgb(31, 56, 199);
+    border-radius: 50%;
+}
+.navbar-brand .fa-instagram{
+    font-size: 30px;
+    background: radial-gradient(
+        circle at 33% 100%,
+        #fed373 4%,
+        #f15245 30%,
+        #d92e7f 62%,
+        #9b36b7 85%,
+        #515ecf);
+        border-radius: 30%;
+        
+}
+.container .icono{
+    background: black;
+    border: solid green 2px;
+    border-radius: 60%;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 30px;
+   
+}
+.bi-whatsapp{
+    border-radius: 60%;
+}
+
+.footer{
+    font-family: sans-serif;
+    text-align: center;
+    color: bisque;
+    background:black;
+    height: auto;
+    padding-bottom: 0;
+    font-size: 15px;
+    
+}
+.fondo{
+     min-height:calc(100vh - 50px );
+   background: url('https://http2.mlstatic.com/D_NQ_NP_2X_964376-MLA50985381323_082022-F.webp');
+background-size: cover;
+background-repeat: no-repeat;
+background-position:  center 0;
+}
+h1{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 30px;
+}
+  /*smartphone*/
+  @media (max-width:576px){
+    .fondo{
+     
+     min-height:calc(100vh - 50px );
+        
+        
+   background: url('https://http2.mlstatic.com/D_NQ_NP_2X_964376-MLA50985381323_082022-F.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position:  center ;
+width: 100%;
+
+    
+    
+
+
+}
+    }
+  
+  
